@@ -23,7 +23,7 @@ export default function RootLayout({
         <head>
           <Script
             strategy="afterInteractive"
-            src={`https://www.googletagmanager.com/gtag/js?id=G-SZP8KF5M0E`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-S1ZV637FGY`}
           />
           <Script
             id="google-analytics"
@@ -33,7 +33,7 @@ export default function RootLayout({
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-SZP8KF5M0E', {
+                gtag('config', 'G-S1ZV637FGY', {
                   page_path: window.location.pathname,
                 });
               `,
