@@ -1,2 +1,0 @@
-export {formatDateToBrazilianFormat} from './formatDateToBrazilianFormat'
-
