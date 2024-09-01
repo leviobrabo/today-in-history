@@ -6,7 +6,7 @@ import { IconQuoteLeft } from "@/components/Icon";
 import { eventHistoricService } from "@/services/eventHistoric";
 import { useQuery } from "react-query";
 import { getTodayEvent } from "@/utils/getTodayEvent";
-import { formatDateToBrazilianFormat } from "@/utils/formatDateToBrazilianFormat";
+import { formatDateToUSFormat } from "@/utils/formatDateToUSFormat";
 import { parseHistoricalEvent } from "@/utils/parseHistoricalEvent";
 import {
   Carousel,
@@ -75,7 +75,7 @@ const Phrase = () => {
                   {todayEvents.map((event,index) => (
                     <CarouselItem key={index} className="pt-1 md:basis-1/2">
                         <div className="flex flex-col h-[200px]">
-                          <span className="w-full text-center text-lg lg:text-xl font-semibold">{formatDateToBrazilianFormat(event.date)}</span>
+                          <span className="w-full text-center text-lg lg:text-xl font-semibold">{formatDateToUSFormat(event.date)}</span>
                           <div className="p-1">
                             {event.event}
                           </div>
