@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <head>
         {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3470054444155641" crossorigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3470054444155641" crossOrigin="anonymous"></script>
 
         {/* Google Analytics */}
         <Script
