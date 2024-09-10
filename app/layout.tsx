@@ -46,6 +46,13 @@ export default function RootLayout({
             `,
           }}
         />
+        
+        {/* Script para Native Banner */}
+        <Script
+          async
+          data-cfasync="false"
+          src="//pl24337754.cpmrevenuegate.com/9f349764774e7f5ad334421d3781f0eb/invoke.js"
+        />
       </head>
       <body className={`${outfit.className} flex flex-col min-h-screen justify-between bg-CustomAntiqueWhite dark:bg-CustomCharcoal transition-colors duration-1000`}>
         <ReactQueryClientProvider>
@@ -54,6 +61,9 @@ export default function RootLayout({
           
           {/* Conteúdo dinâmico */}
           {children}
+
+          {/* Contêiner do Native Banner */}
+          <div id="container-9f349764774e7f5ad334421d3781f0eb"></div>
 
           {/* Rodapé global */}
           <Footer/>
