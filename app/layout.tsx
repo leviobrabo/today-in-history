@@ -51,8 +51,6 @@ export default function RootLayout({
           async
           data-cfasync="false"
           src="//pl24337754.cpmrevenuegate.com/9f349764774e7f5ad334421d3781f0eb/invoke.js"
-          onLoad={() => console.log('Banner script loaded')}
-          onError={(e) => console.error('Error loading banner script', e)}
         />
       </head>
       <body className={`${outfit.className} flex flex-col min-h-screen justify-between bg-CustomAntiqueWhite dark:bg-CustomCharcoal transition-colors duration-1000`}>
